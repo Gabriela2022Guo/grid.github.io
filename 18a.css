@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+.grid-container{
+    background-color:pink;
+    /* width: 100vw;
+    height: 100vh;  */
+     display: grid;
+     grid-gap:2px;
+     } 
+.grid-content{
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
+.grid-header{
+   grid-column: span 3; 
+}
+.grid-sidebar{
+    grid-row: span 3;
+}
+.grid-main{
+  grid-column: span 2; 
+}
+.grid-article-a{
+   grid-row: span 2;
+}
+.grid-article-b{
+    grid-row: span 2;
+}
+.grid-footer{
+   grid-column: span 3; 
+}
+
+
